@@ -63,7 +63,7 @@ void displayMenu() {
     printf("4. Exit\n");
 }
 
-// Function to add a new tour
+// Function to add a new Tour
 void addTour() {
     if (numTours >= MAX_TOURS) {
         printf("Cannot add more tours. Maximum limit reached.\n");
